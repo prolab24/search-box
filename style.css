@@ -52,8 +52,16 @@ input[type=search]
     width: 400px;
     margin-left: 15px;
     margin-right: 10px;
+    transition: 1s;
 }
 .display .fa-microphone
 {
     display: flex;
+}
+
+@media(max-width:560px){
+    .display input[type=search]
+    {
+        width: 250px;
+    }
 }
